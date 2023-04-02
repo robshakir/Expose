@@ -592,6 +592,7 @@ do
 	
 	#write html file
 	html=$(template "$html" sitetitle "$site_title")
+	html=$(template "$html" linkurl "$link_url")
 	html=$(template "$html" gallerytitle "${nav_name[i]}")
 	
 	html=$(template "$html" disqus_shortname "$disqus_shortname")
